@@ -1,5 +1,4 @@
 echo "entering emcc"
-cd emsdk
 # Download and install the latest SDK tools.
 ./emsdk install latest
 
@@ -9,5 +8,4 @@ cd emsdk
 # Activate PATH and other environment variables in the current terminal
 source ./emsdk_env.sh
 echo "done installing"
-cd ..
 emcc
